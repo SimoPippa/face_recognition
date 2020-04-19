@@ -14,7 +14,7 @@ Extra: if the probability related to the prediction is lower than a certain thre
 
 # How to use
 
-## Required libraries
+## Required libraries and downloads
 In order to make the program work correctly, you will need the following libraries, all easily installable via pip:
 * numpy
 * cv2
@@ -24,10 +24,10 @@ In order to make the program work correctly, you will need the following librari
 * mtcnn
 * pickle
 
-
+You must install the FaceNet Model from [here](https://drive.google.com/drive/folders/1pwQ3H4aJ8a6yyJHZkTwtjcL4wYWQb7bn), and save it inside the 'imports' folder with this name 'facenet_keras.h5'.
 
 ## Directories
-You will just need to download the folder, already structured in the way the program wants it, which you can see here:
+You will just need to create a folder structure as follows:
 
 * FaceRecognition_Project
   * code_stuff
