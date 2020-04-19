@@ -36,6 +36,7 @@ You will just need to download the folder, already structured in the way the pro
    * people ---> contains some subdirectories, named after the person you want to train your model to recognize, and each of these must contain images of the related person (make sure there is only one face for each pictures, otherwise it might give an error...)
    * to_predict ---> contains the images of which you want to detect and recognize the identity
       
+The more images you will use to train the model, the better the predictions will be!
 
 ## Last steps
 After having put some pictures, both in the 'people' and the 'to_predict' folder, just copy the path to the main directory (in this case: FaceRecognition_Project), you can run your code!
